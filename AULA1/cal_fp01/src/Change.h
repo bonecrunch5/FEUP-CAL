@@ -7,13 +7,16 @@
 
 #include "Defs.h"
 
-/* Calcula o troco num determinado montante m, utilizando um número mínimo
- * de moedas de valores unitários indicados (coinValues).
+/* Calcula o troco num determinado montante m, utilizando um nï¿½mero mï¿½nimo
+ * de moedas de valores unitï¿½rios indicados (coinValues).
  * O array coinValues deve estar ordenado por ordem crescente.
- * O parâmetro numCoins indica o tamanho do array.
+ * O parï¿½metro numCoins indica o tamanho do array.
  * Devolve:
- * Uma string com a sequência de valores das moedas por valores decrescente.
+ * Uma string com a sequï¿½ncia de valores das moedas por valores decrescente.
  * Por exemplo: calcChange(9, 3, {1, 2, 5}) = "5;2;2;"
+ * M->VALOR QUE QUEREMOS CHEGAR
+ * I->INDICE DAZ DIFERENTES MOEDAS QUE EXISTEM
+ * K->INDICE DO LAST COIN E MIN COIN
  * */
 string calcChange(int m, int numCoins, int *coinValues);
 

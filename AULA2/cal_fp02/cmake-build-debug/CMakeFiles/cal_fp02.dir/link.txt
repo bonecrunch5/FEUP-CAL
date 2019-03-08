@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cal_fp02.dir/src/Labirinth.cpp.o CMakeFiles/cal_fp02.dir/src/Sudoku.cpp.o CMakeFiles/cal_fp02.dir/src/Test.cpp.o  -o cal_fp02 
